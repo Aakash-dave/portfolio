@@ -339,8 +339,8 @@ section {
   .page-1 aside {
     position: absolute;
     top: 10%;
-    left: 6%;
-    width: 85%;
+    left: 1%;
+    width: 100%;
     text-align: unset;
   }
   
@@ -354,7 +354,7 @@ section {
   }
 
   .page-2 main aside:last-child {
-    width: 92%;
+    width: 85%;
   }
 
   .page-2 .stack-card {
