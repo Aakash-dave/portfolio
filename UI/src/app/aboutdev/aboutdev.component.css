@@ -19,7 +19,7 @@ small font - text-base 1 16px
   overflow-y: scroll;
   overflow-x: hidden;
   /* important */
-  height: 100vh;
+  height: 100dvh;
   /* scroll-snap-points-y: repeat(100vh); */
   scroll-snap-type: y mandatory;
 }
@@ -338,9 +338,9 @@ section {
 
   .page-1 aside {
     position: absolute;
-    top: 9%;
-    left: 10%;
-    width: 100%;
+    top: 10%;
+    left: 6%;
+    width: 85%;
     text-align: unset;
   }
   
