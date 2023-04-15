@@ -366,7 +366,7 @@ section {
     justify-content: start;
   }
 
-  .page-5 .contact-card > img {
+  .page-5 .contact-card>img {
     padding: 1.3rem;
   }
 
@@ -387,15 +387,16 @@ section {
   .page-1 aside {
     position: absolute;
     top: 10%;
-    left: 6%;
+    left: 0%;
     width: 100%;
-    text-align: unset;
+    text-align: center;
   }
-  
+
   .page-2 .about {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
+
   .page-2 .about>div {
     left: 6%;
     width: 88%;
@@ -464,14 +465,21 @@ section {
     justify-content: start;
   }
 
-  .page-5 .contact-card > img {
+  .page-5 .contact-card>img {
     padding: 1.3rem;
   }
 
-  .page-5 .contact-card div > a {
+  .page-5 .contact-card div>a {
     font-size: larger;
   }
+}
 
+/* between <379px M-Mobile */
+@media screen and (max-width:24em) {
+  .x-font-primary-color {
+    /* color: aqua; */
+  }
+  
 }
 
 /* full screen height > 731  */
