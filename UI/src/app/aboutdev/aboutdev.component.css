@@ -231,7 +231,7 @@ section {
 /* < 1440 Large PC screen*/
 @media screen and (max-width:90em) {
   .x-font-primary-color {
-    color: red;
+    /* color: red; */
   }
 
   .page-1 aside {
@@ -260,7 +260,7 @@ section {
 @media screen and (max-width:64em) {
 
   .x-font-primary-color {
-    color: blue;
+    /* color: blue; */
   }
 
   .page-1 {
@@ -308,7 +308,7 @@ section {
 /* < 800 Tablets*/
 @media screen and (max-width:50em) {
   .x-font-primary-color {
-    color: green;
+    /* color: green; */
   }
 
   .page-1 {
@@ -324,13 +324,19 @@ section {
     text-align: center;
   }
 
+  .page-2 .about {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .page-2 main aside:last-child {
     width: 90%;
+    justify-content: space-around;
   }
 
   .page-2 .stack-card {
-    width: 12rem;
-    height: 11rem;
+    width: 11rem;
+    height: 10rem;
   }
 
   .page-3 main {
@@ -370,7 +376,7 @@ section {
 /* between <425px L-Mobile */
 @media screen and (max-width:26.8em) {
   .x-font-primary-color {
-    color: aqua;
+    /* color: aqua; */
   }
 
   .page-1 {
@@ -381,7 +387,7 @@ section {
   .page-1 aside {
     position: absolute;
     top: 10%;
-    left: 7%;
+    left: 6%;
     width: 100%;
     text-align: unset;
   }
