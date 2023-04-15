@@ -19,7 +19,7 @@ small font - text-base 1 16px
   overflow-y: scroll;
   overflow-x: hidden;
   /* important */
-  height: 100dvh;
+  height: 100vh;
   /* scroll-snap-points-y: repeat(100vh); */
   scroll-snap-type: y mandatory;
 }
@@ -387,8 +387,8 @@ section {
   }
   
   .page-2 .about {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
   .page-2 .about>div {
     left: 6%;
@@ -405,12 +405,14 @@ section {
     height: 8rem;
   }
 
-  .page-3 .translate-experience {
-    width: 86%;
+  .page-3 aside {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 
-  .page-3 main {
-    gap: 4rem;
+  .page-3 .translate-experience {
+    width: 86%;
+    gap: 3rem;
   }
 
   .page-3 main div .year-shape span {
