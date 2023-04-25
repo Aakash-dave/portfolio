@@ -418,7 +418,7 @@ section {
   }
 
   .page-3 .translate-experience {
-    width: 86%;
+    width: 87%;
     gap: 3rem;
   }
 
@@ -474,15 +474,40 @@ section {
   }
 }
 
-/* between <379px M-Mobile */
-@media screen and (max-width:24em) {
+/* between <735px height M-Mobile */
+@media screen and (max-height:45.99em) and (max-width:26.8em) {
   .x-font-primary-color {
     /* color: aqua; */
   }
+
+  .page-2 main {
+    gap: 2rem;
+  }
+
+  .page-2 .about {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .page-3 aside {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .page-3 .translate-experience {
+    width: 88%;
+    gap: 2.5rem;
+  }
+
+  .page-4 .portfolio-card {
+    width: 17rem;
+    height: 17rem;
+  }
+
   
 }
 
-/* full screen height > 731  */
+/* full screen height > 736  */
 @media screen and (min-height:46em) and (min-width:64em) {
   .page-1 {
     background-size: 95% auto !important;
