@@ -26,3 +26,5 @@ This is a smaller part of large project Skyshop.
 
 ## 🚀 About Me
 I'm a full stack developer, full time Employee.
+
+- [Visit page](https://aakash-dave.netlify.app/)
